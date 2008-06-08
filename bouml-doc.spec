@@ -1,7 +1,7 @@
 Summary:	Bouml reference manual
 Name:		bouml-doc
 Version:	4.3.2
-Release:	%mkrel 2
+Release:	%mkrel 3
 License:	GPLv2+
 Group:		Development/Other
 URL:		http://bouml.free.fr
@@ -27,16 +27,13 @@ Contains reference manual.
 
 %install
 rm -rf %{buildroot}
-%__install -d -m 755 %{buildroot}%{_docdir}/bouml/pdf
-%__mv doc %{buildroot}%{_docdir}/bouml/html
-%__mv *.pdf %{buildroot}%{_docdir}/bouml/pdf
+%__install -d -m 755 %{buildroot}%{_datadir}/%{name}/pdf
+%__mv doc %{buildroot}%{_datadir}/%{name}/html
+%__mv *.pdf %{buildroot}%{_datadir}/%{name}/pdf
 
 %clean
 rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
-%dir %{_docdir}/bouml/html
-%{_docdir}/bouml/html/*
-%dir %{_docdir}/bouml/pdf
-%{_docdir}/bouml/pdf/*.pdf
+%{_datadir}/%{name}
