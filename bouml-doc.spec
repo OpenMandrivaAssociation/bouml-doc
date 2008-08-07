@@ -1,7 +1,7 @@
 Summary:	Bouml reference manual
 Name:		bouml-doc
 Version:	4.3.2
-Release:	%mkrel 3
+Release:	%mkrel 4
 License:	GPLv2+
 Group:		Development/Other
 URL:		http://bouml.free.fr
