@@ -1,6 +1,6 @@
 Summary:	Bouml reference manual
 Name:		bouml-doc
-Version:	4.9
+Version:	4.12.4
 Release:	%mkrel 1
 License:	GPLv2+
 Group:		Development/Other
