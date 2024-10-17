@@ -4,7 +4,7 @@ Version:	4.21
 Release:	2
 License:	GPLv2+
 Group:		Development/Other
-URL:		http://bouml.free.fr
+URL:		https://bouml.free.fr
 Source0:	http://downloads.sourceforge.net/bouml/doc%{version}.tar.gz
 Source1:	http://downloads.sourceforge.net/bouml/doc%{version}_A4.pdf
 BuildArch:	noarch
